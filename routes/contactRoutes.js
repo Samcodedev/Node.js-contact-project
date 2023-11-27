@@ -10,7 +10,6 @@ router.use(validation)
 router.route('/').get(getContact).post(postContact) // routing to the GET and POST function
 router.route('/:id').get(getContact2).put(putContact).delete(deleteContact) // routing to the GET, PUT and DELETE function
 
-
 module.exports = router
  
 
